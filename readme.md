@@ -16,21 +16,20 @@
 Le projet est organisé comme suit :
 
 ```
-|-- src/
-|   |-- config/
-|   |-- controllers/
-|   |-- models/
-|   |-- routes/
+|-- config/
+|-- controllers/
+|-- models/
+|-- routes/
 |-- .env
 |-- package.json
 |-- README.md
 |-- index.js
 ```
 
-- **src/config/** : Contient le fichier de configuration de la base de donnees.
-- **src/controllers/** : Contient les contrôleurs pour gérer les opérations CRUD sur les publications.
-- **src/models/** : Contient les modèles Mongoose pour la structure des données.
-- **src/routes/** : Définit les routes de l'API pour la gestion des publications.
+- **config/** : Contient le fichier de configuration de la base de donnees.
+- **controllers/** : Contient les contrôleurs pour gérer les opérations CRUD sur les publications.
+- **models/** : Contient les modèles Mongoose pour la structure des données.
+- **routes/** : Définit les routes de l'API pour la gestion des publications.
 - **index.js** : Point d'entrée principal de l'application.
 
 ## Installation
